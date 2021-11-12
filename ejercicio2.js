@@ -33,7 +33,7 @@ const evaluarPromedios = () => {
     let prom = promedio(empleados);
     let listaDeEmpleados = [];
     let cincoPorciento = prom - ((prom * 5) / 100);
-    let diezPorciento = prom - ((prom * 10) / 100);
+    let diezPorciento = prom + ((prom * 10) / 100);
 
     for (let m = 0; m < empleados.length; m++) {
 
